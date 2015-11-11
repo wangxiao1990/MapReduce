@@ -116,5 +116,6 @@
 	<classpathentry kind="lib" path="C:/My Applications/hadoop-2.6.0/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar"/>
 	<classpathentry kind="lib" path="C:/My Applications/hadoop-2.6.0/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar"/>
 	<classpathentry kind="lib" path="C:/My Applications/hadoop-2.6.0/share/hadoop/hdfs/lib/xmlenc-0.52.jar"/>
+	<classpathentry kind="lib" path="C:/My Applications/workspace/libraries/opencsv-3.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
