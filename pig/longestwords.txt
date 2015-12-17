@@ -1,0 +1,7 @@
+A = load 'D:/hw1.txt';
+B =  foreach A generate flatten(TOKENIZE((chararray)$0)) as word;
+C = DISTINCT B;
+D = foreach C generate word,SIZE(word) as len;
+E = order D by len desc;
+F = limit E 10;
+store F into './wordcount';
